@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FCF5ED;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.caixa {
+    background-color: white;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 800px;
+
+}
+
+#logo {
+    width: 110px;
+    background-color: white;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: white;
+
+}
+
+p {
+    background-color: white;
+    color: #5F6368;
+}
+
+
+.buscar {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+
+}
+
+.buscar input {
+    background-color: white;
+    width: 536.993px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    border-radius: 7.16px;
+    border: 0.716px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    background-color: white;
+
+}
+
+.botao1 {
+    width: 50%;
+    justify-content: left;
+    background-color: white;
+
+}
+
+.botao2 {
+    width: 50%;
+    justify-content: right;
+    background-color: white;
+}
+
+.botao1 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.botao2 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+}
